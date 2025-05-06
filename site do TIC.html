@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nossos Serviços | InovaPCD</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Mantenha os mesmos estilos do arquivo principal ou importe o CSS */
+        :root {
+            --primary: #0A2463;
+            --secondary: #3E92CC;
+            --accent: #FF7B25;
+            --text: #FFFFFF;
+            --section-bg: #1A1A2E;
+        }
+        
+        body {
+            background-color: var(--section-bg);
+            color: var(--text);
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .services-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 50px 20px;
+        }
+        
+        .service-page-title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        
+        .service-page-title h1 {
+            font-size: 2.5rem;
+            color: var(--accent);
+        }
+        
+        .service-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .service-card {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 30px;
+            transition: transform 0.3s;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .service-icon {
+            font-size: 2.5rem;
+            color: var(--accent);
+            margin-bottom: 20px;
+        }
+        
+        .service-card h2 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+        
+        .back-button {
+            display: inline-block;
+            margin-top: 40px;
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="services-container">
+        <div class="service-page-title">
+            <h1>Nossos Serviços</h1>
+            <p>Conheça todas as soluções que oferecemos para pessoas com deficiência</p>
+        </div>
+        
+        <div class="service-grid">
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-universal-access"></i>
+                </div>
+                <h2>Acessibilidade Digital</h2>
+                <p>Soluções tecnológicas adaptadas para diferentes tipos de deficiência, garantindo inclusão no ambiente digital.</p>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <h2>Cursos Inclusivos</h2>
+                <p>Programas de capacitação profissional totalmente adaptados, com metodologias acessíveis e suporte especializado.</p>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-briefcase"></i>
+                </div>
+                <h2>Consultoria Empresarial</h2>
+                <p>Auxiliamos empresas na implementação de políticas e práticas de inclusão para PCDs.</p>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-hands-helping"></i>
+                </div>
+                <h2>Recrutamento Inclusivo</h2>
+                <p>Conectamos talentos PCDs com oportunidades no mercado de trabalho.</p>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+                <h2>Desenvolvimento de Softwares</h2>
+                <p>Criação de aplicações e plataformas com acessibilidade desde a concepção.</p>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-comments"></i>
+                </div>
+                <h2>Orientacão Profissional</h2>
+                <p>Acompanhamento personalizado para desenvolvimento de carreira.</p>
+            </div>
+        </div>
+        
+        <a href="javascript:window.close();" class="back-button">Voltar para a página principal</a>
+    </div>
+</body>
+</html>
